@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.logo{
+    width: 150px;
+    height: 50px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-link{
+    color:black;
 }
+.nav-link:hover{
+    color:black;
+}
+nav ul{
+    justify-content: space-between;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.img-fluid{
+    background-image: url("https://openweathermap.org/themes/openweathermap/assets/img/autumn_banner_main_page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+/* .h1-weather{
+    color: black;
+    z-index: 1;
+    margin-top: -50px;
+    position: absolute;
+} */
